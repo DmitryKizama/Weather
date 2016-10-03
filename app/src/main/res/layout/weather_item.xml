@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/weather_item_layout"
+    android:layout_width="match_parent"
+    android:layout_height="@android:dimen/notification_large_icon_height"
+    android:orientation="horizontal"
+    android:weightSum="4">
+
+    <TextView
+        android:id="@+id/tvWeatherName"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:textColor="@color/black"
+        android:layout_weight="3" />
+
+
+    <TextView
+        android:id="@+id/tvWeatherCode"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:text=" DAY"/>
+</LinearLayout>
